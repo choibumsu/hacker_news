@@ -7,15 +7,13 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    news: [],
-    jobs: [],
-    ask: [],
     user: {},
-    item: {}
+    item: {},
+    list: []
   },
   getters: {
-    fetchedAsk(state) {
-      return state.ask;
+    fetchedItem(state) {
+      return state.item;
     }
   },
   mutations,

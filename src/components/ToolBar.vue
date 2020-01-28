@@ -20,7 +20,7 @@ export default {};
   padding: 8px;
 }
 
-.header .router-link-exacr-active {
+.header .router-link-exact-active {
   color: #35495e;
 }
 
